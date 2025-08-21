@@ -23,7 +23,7 @@ export default function Experience() {
               primary: true,
             },
             {
-              company: "Ditaso",
+              company: "Ditaso A/S",
               role: "Full Stack Developer",
               dates: "2019 - 2020",
             },
