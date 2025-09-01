@@ -1,4 +1,3 @@
-import { GiSunflower } from "react-icons/gi";
 import {
   SiJavascript,
   SiTypescript,
@@ -31,16 +30,13 @@ import {
   SiAngular,
   SiDotnet,
 } from "react-icons/si";
+import FlowerIcon from "../components/FlowerIcon";
 
 export default function Stack() {
   return (
     <section id="stack" className="mb-16">
       <div className="flex items-center gap-2">
-        <GiSunflower
-          className="h-5 w-5 text-neutral-200 animate-spin"
-          style={{ animationDuration: "7000ms" }}
-          aria-hidden
-        />
+        <FlowerIcon />
         <h2 className="text-xl font-medium tracking-tight uppercase">
           My Stack
         </h2>

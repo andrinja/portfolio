@@ -1,15 +1,11 @@
-import { GiSunflower } from "react-icons/gi";
+import FlowerIcon from "../components/FlowerIcon";
 
 export default function Experience() {
   return (
     <section id="experience" className="mb-12 py-12">
       <div className="w-full">
         <div className="flex items-center gap-2">
-          <GiSunflower
-            className="h-5 w-5 text-neutral-200 animate-spin"
-            style={{ animationDuration: "7000ms" }}
-            aria-hidden
-          />
+          <FlowerIcon />
           <h2 className="text-xl font-medium tracking-tight uppercase">
             My Experience
           </h2>
